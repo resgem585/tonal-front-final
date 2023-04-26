@@ -1,15 +1,28 @@
+import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-import { Router, Routes, Route } from 'react-router-dom'
 import { Login } from './Pages/Login'
-import LoginForm from './components/LoginForm'
+import Navbar from './layouts/Navbar'
+import Home from './Pages/Home'
 
 function App() {
   
+  const client = new ApolloClient({
+    cache: new InMemoryCache(),
+    uri: 'http://localhost:3000/'
+  })
+  
 
   return (
-   <>
-   <LoginForm />
-   </>
+    <Router>
+    <ApolloProvider client={client}>
+      <Navbar />
+      <Routes>
+        <Route index element={<Login />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
+    </ApolloProvider>
+  </Router>
   )
 }
 
