@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Login } from './Pages/Login'
 import Navbar from './layouts/Navbar'
 import Home from './Pages/Home'
+import Juegos from './Pages/Juegos'
+import NewJuego from './Pages/NewJuego'
 
 function App() {
   
@@ -20,6 +22,8 @@ function App() {
       <Routes>
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/juegos" element={<Juegos />} />
+        <Route path="/newjuego" element={<NewJuego />} />
       </Routes>
     </ApolloProvider>
   </Router>

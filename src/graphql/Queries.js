@@ -1,5 +1,5 @@
 import {gql} from '@apollo/client'
-
+//USER
 
 export const LOGIN =  gql`
 query login($email:String, $password: String){
@@ -10,4 +10,17 @@ query login($email:String, $password: String){
     }
 }
 
+`
+//JUEGOS
+
+export const GET_JUEGOS = gql`
+
+query getJuegos{
+    getJuegos {
+        _id 
+        title
+        description
+        image
+    }
+}
 `
