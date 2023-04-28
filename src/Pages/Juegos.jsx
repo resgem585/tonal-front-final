@@ -1,8 +1,8 @@
-import JuegoCards from "../components/JuegoCards"
+import JuegoCard from "../components/JuegoCard"
 
 const Juegos = () => {
   return (
-    <JuegoCards />
+    <JuegoCard />
   )
 }
 export default Juegos

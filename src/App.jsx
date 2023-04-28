@@ -6,6 +6,7 @@ import Navbar from './layouts/Navbar'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
 import NewJuego from './Pages/NewJuego'
+import Temazcall from './Pages/Temazcall'
 
 function App() {
   
@@ -24,6 +25,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/juegos" element={<Juegos />} />
         <Route path="/newjuego" element={<NewJuego />} />
+        <Route path="/temazcall" element={<Temazcall />} />
       </Routes>
     </ApolloProvider>
   </Router>

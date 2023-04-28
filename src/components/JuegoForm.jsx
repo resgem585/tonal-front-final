@@ -1,5 +1,5 @@
 import { useMutation } from "@apollo/client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // Resolvers
 import { CREATE_JUEGO } from "../graphql/Mutation";
@@ -30,7 +30,7 @@ const JuegoForm = () => {
       <div className="mb-6">
         <label
           htmlFor="title"
-          className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+          className="block mb-2 text-sm font-medium text-gray-900 dark:text-black"
         >
           Title
         </label>

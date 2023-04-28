@@ -22,7 +22,7 @@ import { useNavigate } from "react-router-dom";
     <nav
      className="px-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
-        <Link to="#" className="flex items-center">
+        <Link to="/home" className="flex items-center">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Signo_Calli.png"
             className="h-6 mr-3 sm:h-16"
