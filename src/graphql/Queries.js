@@ -9,5 +9,16 @@ query login($email:String, $password: String){
         password
     }
 }
+`
+//JUEGOS
 
+export const GET_JUEGOS = gql`
+query getJuegos{
+    getJuegos {
+        _id 
+        title
+        description
+        image
+    }
+}
 `
