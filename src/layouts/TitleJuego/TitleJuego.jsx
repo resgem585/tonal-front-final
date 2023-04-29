@@ -1,7 +1,7 @@
 // Style
-import './About.scss'
+import './TitleJuego.scss'
 
-const About = () => {
+const TitleJuego = () => {
   return (
     <section className='base'>
       <div className='base__about'>
@@ -14,4 +14,4 @@ const About = () => {
   )
 }
 
-export default About
+export default TitleJuego

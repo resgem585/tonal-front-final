@@ -1,10 +1,10 @@
-import About from "../components/About/About";
+import TitleJuego from "../layouts/TitleJuego/TitleJuego";
 import JuegoCard from "../components/JuegoCard";
 
 const Juegos = () => {
   return (
     <>
-    <About />
+    <TitleJuego />
     <JuegoCard />
     </>
   )

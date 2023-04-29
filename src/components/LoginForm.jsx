@@ -25,8 +25,8 @@ const LoginForm = () => {
   });
   return (
 <section className="min-h-screen flex items-stretch text-white ">
-  <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://blogs.ua.es/aztecasml/files/2011/10/Calendario-azteca.png)'}}>
-    <div className="absolute bg-black opacity-60 inset-0 z-0" />
+  <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://i.pinimg.com/564x/b9/f7/3e/b9f73e49b26929fd8f597c4aa7be9d40.jpg)'}}>
+    <div className="absolute white opacity-60 inset-0 z-0" />
     <div className="w-full px-24 z-10">
       <h1 className="text-5xl font-bold text-left tracking-wide">Tonalmachiotl</h1>
       <p className="text-3xl my-4">El libro del tiempo</p>
@@ -45,12 +45,12 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
     </div>
   </div>
   <div className="lg:w-1/2 w-full flex items-center justify-center text-center md:px-16 px-0 z-0" style={{backgroundColor: '#161616'}}>
-    <div className="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center" style={{backgroundImage: 'url(https://www.mexicodesconocido.com.mx/sites/default/files/nodes/inline/piedra-del-sol.gif)'}}>
-      <div className="absolute bg-black opacity-60 inset-0 z-0" />
+    <div className="absolute lg:hidden z-10 inset-0 bg-gray-500 bg-no-repeat bg-cover items-center" style={{backgroundImage: 'url(https://i.pinimg.com/564x/b9/f7/3e/b9f73e49b26929fd8f597c4aa7be9d40.jpg)'}}>
+      <div className="absolute white opacity-60 inset-0 z-0" />
     </div>
     <div className="w-full py-6 z-20">
       <h1 className="my-6">
-      <p className="text-gray-100 " >
+      <p className="text-gray-100 text-lg" >
         Iniciar Sesion
       </p>
       </h1>
