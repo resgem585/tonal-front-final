@@ -1,3 +1,3 @@
-import About from './TitleJuego'
+import TitleJuego from "./TitleJuego"
 
-export default About
+export default TitleJuego
