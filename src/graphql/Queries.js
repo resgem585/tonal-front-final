@@ -22,3 +22,17 @@ query getJuegos{
     }
 }
 `
+//TONAL
+export const GET_TONAL = gql`
+query getTonal{
+    getTonal {
+        _id 
+        title
+        significado
+        description
+        acompaniante
+        oficios
+        image
+    }
+}
+`

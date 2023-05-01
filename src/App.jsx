@@ -5,6 +5,7 @@ import { Login } from './Pages/Login'
 import Navbar from './layouts/Navbar'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
+import Tonal from './Pages/Tonal'
 
 function App() {
   
@@ -22,6 +23,7 @@ function App() {
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path='/juegos' element={<Juegos />} />
+        <Route path='/tonal' element={<Tonal />} />
       </Routes>
     </ApolloProvider>
   </Router>
