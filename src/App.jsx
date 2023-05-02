@@ -6,6 +6,8 @@ import Navbar from './layouts/Navbar'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
 import Tonal from './Pages/Tonal'
+import NewJuego from './Pages/NewJuego'
+import NewTonal from './Pages/NewTonal'
 
 function App() {
   
@@ -23,7 +25,9 @@ function App() {
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path='/juegos' element={<Juegos />} />
+        <Route path="/newjuego" element={<NewJuego />} />
         <Route path='/tonal' element={<Tonal />} />
+        <Route path='/newtonal' element={<NewTonal />} />
       </Routes>
     </ApolloProvider>
   </Router>

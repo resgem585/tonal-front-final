@@ -30,8 +30,6 @@ query getTonal{
         title
         significado
         description
-        acompaniante
-        oficios
         image
     }
 }
