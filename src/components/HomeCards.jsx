@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const HomeCards = () => {
   return (
     <div className="my-10 flex space-x-20 justify-center ">
-      <a
-        href="#"
+      <Link
+        to="/nahuatl"
         className="w-2/5 relative block overflow-hidden rounded-xl bg-[url(https://www.mexicodesconocido.com.mx/sites/default/files/nodes/586/codice_florentino.jpg)] bg-cover bg-center bg-no-repeat"
       >
         <div className="absolute inset-0 bg-black/25" />
@@ -23,9 +25,9 @@ const HomeCards = () => {
             </svg>
           </span>
         </div>
-      </a>
-      <a
-        href="#"
+      </Link>
+      <Link
+        to="/juegos"
         className="w-2/5 relative block overflow-hidden rounded-xl bg-[url(https://www.muyinteresante.com.mx/wp-content/uploads/2018/05/httpstved-prod.adobecqms.netcontentdameditorialTelevisamexicomuyinteresantemxhistoria1202patolli-juego-prehispanico-588x257.imgo_.jpg)] bg-cover bg-center bg-no-repeat"
       >
         <div className="absolute inset-0 bg-black/25" />
@@ -46,7 +48,7 @@ const HomeCards = () => {
             </svg>
           </span>
         </div>
-      </a>
+      </Link>
       <a
         href="#"
         className="w-2/5 relative block overflow-hidden rounded-xl bg-[url(https://i1.wp.com/www.dejarlotodoeirse.com/wp-content/uploads/2018/08/experiencia-en-un-temazcal-mexico.jpg?fit=642%2C482)] bg-cover bg-center bg-no-repeat"
