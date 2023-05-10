@@ -8,6 +8,7 @@ import Juegos from './Pages/Juegos'
 import Tonal from './Pages/Tonal'
 import NewJuego from './Pages/NewJuego'
 import NewTonal from './Pages/NewTonal'
+import NewTemaz from './Pages/NewTemaz'
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
         <Route path="/newjuego" element={<NewJuego />} />
         <Route path='/tonal' element={<Tonal />} />
         <Route path='/newtonal' element={<NewTonal />} />
+        <Route path='/newtemaz' element={<NewTemaz />} />
       </Routes>
     </ApolloProvider>
   </Router>

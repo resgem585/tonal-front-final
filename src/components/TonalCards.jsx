@@ -34,7 +34,7 @@ const TonalCards = () => {
             >
                 <a href="#">
                     <img
-                        className="rounded-t-lg"
+                        className="rounded-t-lg opacity-50 hover:opacity-100"
                         src={image}
                         alt={title}
                     />

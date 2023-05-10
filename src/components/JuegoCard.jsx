@@ -28,7 +28,7 @@ const JuegoCard = () => {
 
   
   return (
-<div className="flex gap-4 pt-4">
+<div className="flex justify-center flex-wrap gap-y-5 xs:gap-y-7 sm:gap-y-5 gap-x-6 2xl:gap-x-4 mb-8 mt-15 2xl:mt-44 xs:pt-2 sm:pt-5 md:pt-4 lg:pt-6 xl:pt-5 2xl:pt-2 xl:px-6 2xl:px-0">
 			{data &&
 				data.getJuegos.map(({ _id, title, description, image }) => (
 					<>

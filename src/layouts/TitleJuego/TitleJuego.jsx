@@ -7,7 +7,7 @@ const TitleJuego = () => {
       <div className='base__about'>
         <div className='base__about__text'>
           <span className='base__about__text--title'>Juegos </span>
-          <span className='base__about__text--subtitle'>El patolli </span>
+          <span className='base__about__text--subtitle'>El patoll </span>
         </div>
       </div>
     </section>

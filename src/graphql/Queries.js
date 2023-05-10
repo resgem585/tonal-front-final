@@ -34,3 +34,15 @@ query getTonal{
     }
 }
 `
+//TEMAZ
+
+export const GET_TEMAZ = gql`
+query getTonal{
+    getTonal {
+        _id 
+        title
+        description
+        image
+    }
+}
+`

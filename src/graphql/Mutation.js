@@ -38,19 +38,7 @@ export const REMOVE_MOVIE = gql`
 }
 }
 `
-export const UPDATE_MOVIE = gql`
 
-mutation updateMovie($_id: ID,$title:String, $description:String, $likes:Int, $dateOfReleased:String, $image:String){
-  updateMovie(_id: $_id,title:$title, description:$description, liles:$likes, dateOfReleased:$dateOfReleased, image: $image){
-    _id
-    title
-    description
-    likes
-    dateOfReleased
-    image
-  }
-}
-`
 // TONAL
 
 export const CREATE_TONAL = gql`
@@ -61,6 +49,20 @@ mutation createTonal($title:String, $significado:String, $description:String, $i
 		_id
     title
     significado
+    description
+    image
+  }
+}
+`
+// TEMAZ
+
+export const CREATE_TEMAZ = gql`
+
+mutation createTemaz($title:String, $description:String, $image:String){
+  
+  createTonal(title:$title, description:$description, image:$image){
+		_id
+    title
     description
     image
   }
