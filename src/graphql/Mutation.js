@@ -60,7 +60,7 @@ export const CREATE_TEMAZ = gql`
 
 mutation createTemaz($title:String, $description:String, $image:String){
   
-  createTonal(title:$title, description:$description, image:$image){
+  createTemaz(title:$title, description:$description, image:$image){
 		_id
     title
     description
