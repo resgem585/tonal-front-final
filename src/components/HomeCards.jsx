@@ -50,7 +50,7 @@ const HomeCards = () => {
         </div>
       </Link>
       <Link
-        to="temazcal"
+        to="/temazcal"
         className="w-2/5 relative block overflow-hidden rounded-xl bg-[url(https://i1.wp.com/www.dejarlotodoeirse.com/wp-content/uploads/2018/08/experiencia-en-un-temazcal-mexico.jpg?fit=642%2C482)] bg-cover bg-center bg-no-repeat"
       >
         <div className="absolute inset-0 bg-black/25" />
