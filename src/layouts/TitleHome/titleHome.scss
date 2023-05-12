@@ -1,0 +1,49 @@
+@import '../../styles/styles';
+
+.base1 {
+    margin: 0px 5px 20px;
+    min-height: 330px;
+    max-height: 330px;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: $Primary;
+    background-image: url('./../../assets/Piedra-del-Sol.jpg');
+    background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
+    
+    @extend %display-flex;
+    justify-content: center;
+    box-shadow: rgba(33, 35, 38, 0.521) 0px 10px 10px -10px;
+
+    &__about {
+        @extend %display-flex-flex-direction-column ;
+        min-width: 50%;
+        max-width: 100%;
+        min-height: 100px;
+        max-height: 150px;
+        margin-top: 50px;
+        margin-right: 0px;
+        border-radius: 25px 25px 25px 25px;
+        background-color: $Tranparent   ;
+       
+
+        &__text {
+            @extend %display-flex-flex-direction-column ;
+            margin: 0px 0px 0px 0px;
+
+            &--title {
+                font-size: $Display-Large;
+                font-weight: bolder;
+                color: $Type-High-Emphasis;
+            }
+
+            &--subtitle {
+                font-size: $Display-Medium;
+                font-weight: 500;
+                color: $Primary;
+            }
+        }
+
+    }
+}
