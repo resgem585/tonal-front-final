@@ -55,7 +55,7 @@ const TemazCard = () => {
 								</p>
 								<a
       href="#"
-      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-red-600"
     >
       Descubre más
 
