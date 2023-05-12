@@ -28,7 +28,7 @@ const LoginForm = () => {
   <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://i.pinimg.com/564x/b9/f7/3e/b9f73e49b26929fd8f597c4aa7be9d40.jpg)'}}>
     <div className="absolute white opacity-60 inset-0 z-0" />
     <div className="w-full px-24 z-10">
-      <h1 className="text-5xl font-bold text-left tracking-wide">Tonalmachiotl</h1>
+      <h1 className="text-5xl font-bold text-left tracking-wide">Tonal</h1>
       <p className="text-3xl my-4">El libro del tiempo</p>
     </div>
     <div className="bottom-0 absolute p-4 text-center right-0 left-0 flex justify-center space-x-4">
@@ -51,7 +51,7 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
     <div className="w-full py-6 z-20">
       <h1 className="my-6">
       <p className="text-gray-100 text-lg" >
-        Iniciar Sesion
+        Inicia sesión
       </p>
       </h1>
       <div className="py-6 space-x-2">
@@ -60,7 +60,7 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
         <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">in</span>
       </div>
       <p className="text-gray-100">
-        or use email your account
+        o usa tu correo electrónico
       </p>
       <form action className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto"
       onSubmit={async (e) => {
@@ -71,12 +71,12 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
             navigate("/home");
             setUserSession({ isValid: true });
           } else {
-            setIsInvalid("Invalid login!! Try again ");
+            setIsInvalid("Datos incorrectos, intenta de nuevo");
           }
         });
       }}>
         <div className="pb-2 pt-4">
-          <input type="email" name="email" id="email" placeholder="Email" 
+          <input type="email" name="email" id="email" placeholder="Correo electrónico" 
           onChange={(e) => {
                   setEmail(e.target.value);
           }}className="block w-full p-4 text-lg rounded-sm bg-black" />
@@ -85,13 +85,13 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
           <input className="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" id="password" 
           onChange={(e) => {
             setPassword(e.target.value);
-          }}placeholder="Password" />
+          }}placeholder="Contraseña" />
         </div>
         <div className="text-right text-gray-400 hover:underline hover:text-gray-100">
-          <a href="#">Forgot your password?</a>
+          <a href="#">¿Olvidaste tu contraseña?</a>
         </div>
         <div className="px-4 pb-2 pt-4">
-          <button type="submit" className="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">sign in</button>
+          <button type="submit" className="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">Iniciar sesión</button>
         </div>
         <div className="mb-6">
               <p className="text-red-600 mt-5">{isInvalid}</p>

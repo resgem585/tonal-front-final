@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // Apollo/client
 import { useLazyQuery } from '@apollo/client';
 // Query
-import { GET_JUEGOS } from '../graphql/Queries'
+import { GET_JUEGOS } from '../../graphql/Queries'
 
 
 

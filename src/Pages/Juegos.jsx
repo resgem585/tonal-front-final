@@ -1,5 +1,5 @@
 import TitleJuego from "../layouts/TitleJuego/TitleJuego";
-import JuegoCard from "../components/JuegoCard";
+import JuegoCard from "../components/Juegos/JuegoCard";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar"
 

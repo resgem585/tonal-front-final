@@ -1,6 +1,6 @@
 
 // Components
-import JuegoForm from '../components/JuegoForm'
+import JuegoForm from '../components/Juegos/JuegoForm'
 
 
 
