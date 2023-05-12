@@ -21,7 +21,6 @@ function App() {
   return (
     <Router>
     <ApolloProvider client={client}>
-      <Navbar />
       <Routes>
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
