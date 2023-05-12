@@ -1,5 +1,6 @@
 import TitleTemaz from "../layouts/TitleTemaz/TitleTemaz";
 import TemazCard from "../components/TemazCards";
+import TemazFooter from "../components/TemazFooter";
 
 const Temaz = () => {
   return (
@@ -49,6 +50,7 @@ puertas si es de sanación y con 13 si se trata de templar el espíritu guerrero
 </section>
 
     <TemazCard />
+    <TemazFooter />
     </>
   )
 }
