@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // Apollo/client
 import { useLazyQuery } from '@apollo/client';
 // Query
-import { GET_TEMAZ } from '../graphql/Queries'
+import { GET_TEMAZ } from '../../graphql/Queries'
 
 
 
@@ -53,7 +53,19 @@ const TemazCard = () => {
 								<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
 									{description}
 								</p>
-								
+								<a
+      href="#"
+      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+    >
+      Descubre más
+
+      <span
+        aria-hidden="true"
+        className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+      >
+        &rarr;
+      </span>
+    </a>
 							</div>
 							
 						</Link>

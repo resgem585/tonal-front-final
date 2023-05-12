@@ -1,31 +1,4 @@
-// React
-import { useEffect } from 'react'
-import { Link } from 'react-router-dom';
-
-// Apollo/client
-import { useLazyQuery } from '@apollo/client';
-// Query
-import { GET_TEMAZ } from '../graphql/Queries'
-
-
-
-const TemazFooter = () => {
-  const [searchTemaz, { data, error }] = useLazyQuery(GET_TEMAZ)
-
-
- 
-  useEffect(() => {
-		console.log("use effect in home");
-		searchTemaz();
-	}, [searchTemaz])
-
-	if (data) {
-		console.log(data);
-	}
-
-	if (error) return <h1>Error: {error}</h1>;
- 
-
+const Footer = () => {
   
   return (
 <footer aria-label="Site Footer" className="bg-white">
@@ -208,4 +181,4 @@ const TemazFooter = () => {
 			
 	);
 };
-export default TemazFooter
+export default Footer

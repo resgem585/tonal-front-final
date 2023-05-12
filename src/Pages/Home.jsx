@@ -1,5 +1,7 @@
-import HomeCards from "../components/HomeCards"
-import TitleHome from "../layouts/TitleHome"
+import HomeBanner from "../components/Home/HomeBanner"
+import HomeCards from "../components/Home/HomeCards"
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar"
 
 import './../styles/home.scss'
 
@@ -7,8 +9,11 @@ import './../styles/home.scss'
 const Home = () => {
   return (
     <>
-
+    <Navbar/>
+    <HomeBanner />
     <HomeCards />
+    <Footer />
+    
     </>
   )
 }

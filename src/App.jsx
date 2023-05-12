@@ -2,7 +2,6 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import { Login } from './Pages/Login'
-import Navbar from './layouts/Navbar'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
 import Tonal from './Pages/Tonal'
