@@ -1,9 +1,12 @@
 import TitleJuego from "../layouts/TitleJuego/TitleJuego";
 import JuegoCard from "../components/JuegoCard";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar"
 
 const Juegos = () => {
   return (
     <>
+    <Navbar/>
     <TitleJuego />
  <section>
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
@@ -44,6 +47,7 @@ obtenidos en el juego.
 </section>
 
     <JuegoCard />
+    <Footer />
     </>
   )
 }
