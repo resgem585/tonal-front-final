@@ -87,7 +87,7 @@ const Navbar = () => {
 
       <a
         href="#"
-        className="rounded-lg bg-blue-600 px-5 py-2 text-sm font-medium text-white"
+        className="rounded-lg bg-red-500 px-5 py-2 text-sm font-medium text-white"
       >
         Sign up
       </a>
