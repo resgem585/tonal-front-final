@@ -19,12 +19,12 @@ const JuegoIntro = () => {
         ></span>
 
         <div className="p-8 sm:p-16 lg:p-24">
-        <h2 className="text-3xl font-bold sm:text-4xl">
+        <h2 className="text-3xl font-bold sm:text-4xl text center">
         Entre Pelotas y Juegos de Azar:  
         </h2>
-        <h2 className="text-2xl font-bold sm:text-2xl"> La conexión espiritual de los juegos prehispánicos</h2>
+        <h2 className="text-2xl font-bold sm:text-2xl text-center"> La conexión espiritual de los juegos prehispánicos</h2>
 
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-black text-justify">
             La principal diferencia entre un juego y un deporte es que éste último tiene una finalidad competitiva, mientras que el juego se lleva a cabo por diversión o fines esotéricos.
             En cuanto a las reglas, en el deporte son muy estrictas y se rigen bajo reglamentos, mientras que en el juego las reglas podrían no existir o bien ser acordadas por los jugadores.
             Por otra parte, para practicar un deporte la persona debe entrenarse de manera específica para lograr buenos resultados, es decir, debe entrenar tanto los gestos técnicos como la preparación física y mental.

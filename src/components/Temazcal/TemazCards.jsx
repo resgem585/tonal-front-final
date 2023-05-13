@@ -54,7 +54,7 @@ const TemazCard = () => {
 									{description}
 								</p>
 								<a
-      href="#"
+      href="/primerapuerta"
       className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-red-600"
     >
       Descubre más

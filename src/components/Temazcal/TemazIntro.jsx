@@ -19,12 +19,12 @@ const TemazIntro = () => {
         ></span>
 
         <div className="p-8 sm:p-16 lg:p-24">
-        <h2 className="text-3xl font-bold sm:text-4xl">
+        <h2 className="text-3xl font-bold sm:text-4xl text-center">
         Un Portal hacia la Sanación Profunda:  
         </h2>
-        <h2 className="text-2xl font-bold sm:text-2xl"> Explorando los Baños de Vapor Tradicionales</h2>
+        <h2 className="text-2xl font-bold sm:text-2xl text-center"> Explorando los Baños de Vapor Tradicionales</h2>
 
-        <p>
+        <p className="mt-4 text-black text-justify">
           Aunque los baños de vapor han sido usados por muchas culturas en diversas partes del mundo, el
 temazcal ha tenido una importancia especial en las culturas nativas de América, tanto por motivos
 religiosos y rituales, como herramienta de sanación.Se pueden encontrar vestigios de temazcales
@@ -39,7 +39,7 @@ misma habitación estando casi desnudos.
 
           </p>
 
-          <p>El Temazcalli representa el vientre de la Madre Tierra. Para la tradición náhuatl, su propósito es la
+          <p className="mt-4 text-black text-justify">El Temazcalli representa el vientre de la Madre Tierra. Para la tradición náhuatl, su propósito es la
 confrontación de Tezcatlipoca, es decir de nuestras partes obscuras para que el espíritu pueda
 renacer más libre de como entró. Se realiza en cuatro puertas en las que se sanan los cuerpos
 físico, emocional, mental y espiritual.El ritual se inicia con el encendido del fuego y se acompaña

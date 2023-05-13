@@ -10,6 +10,7 @@ import NewTonal from './Pages/NewTonal'
 import NewTemaz from './Pages/Temazcal/NewTemaz'
 import Temaz from './Pages/Temazcal/Temaz'
 import Horoscopo from "./Pages/Horoscopo"
+import Puerta1 from './Pages/Temazcal/Puerta1'
 
 function App() {
   
@@ -32,6 +33,7 @@ function App() {
         <Route path='/newtonal' element={<NewTonal />} />
         <Route path='/newtemaz' element={<NewTemaz />} />
         <Route path='/horoscopo' element={<Horoscopo />} />
+        <Route path='/primerapuerta' element={<Puerta1 />} />
       </Routes>
     </ApolloProvider>
   </Router>
