@@ -7,8 +7,8 @@ import Juegos from './Pages/Juegos'
 import Tonal from './Pages/Tonal'
 import NewJuego from './Pages/NewJuego'
 import NewTonal from './Pages/NewTonal'
-import NewTemaz from './Pages/NewTemaz'
-import Temaz from './Pages/Temaz'
+import NewTemaz from './Pages/Temazcal/NewTemaz'
+import Temaz from './Pages/Temazcal/Temaz'
 import Horoscopo from "./Pages/Horoscopo"
 
 function App() {

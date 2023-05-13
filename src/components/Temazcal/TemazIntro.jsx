@@ -1,20 +1,30 @@
 const TemazIntro = () => {
   return (
     <section>
-  <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
-    <div className="max-w-3xl">
-      <h2 className="text-3xl font-bold sm:text-4xl">
-      Un Portal hacia la Sanación Profunda: 
-      </h2>
-      <h2 className="text-2xl font-bold sm:text-2xl"> Explorando los Baños de Vapor Tradicionales</h2>
-    </div>
-    <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
-      <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-        <img alt="Juego de pelota" src="https://images.squarespace-cdn.com/content/v1/597a3a7837c581de3f210413/1615512507574-2HY2PFP3JHX6795WGZTP/IMG_8424.jpg?format=1500w" />
+    <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+    <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
+      <div className="relative z-10 lg:py-16">
+        <div className="relative h-64 sm:h-80 lg:h-full">
+          <img
+            alt="Juego de pelota"
+            src="https://images.squarespace-cdn.com/content/v1/597a3a7837c581de3f210413/1615512507574-2HY2PFP3JHX6795WGZTP/IMG_8424.jpg?format=1500w"
+            className="absolute inset-0 h-full w-full object-cover"
+          />
+        </div>
       </div>
-      <div className="lg:py-16">
-        <article className="space-y-4 text-gray-600">
-          <p>
+
+      <div className="relative flex items-center bg-gray-100">
+        <span
+          className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-gray-100"
+        ></span>
+
+        <div className="p-8 sm:p-16 lg:p-24">
+        <h2 className="text-3xl font-bold sm:text-4xl">
+        Un Portal hacia la Sanación Profunda:  
+        </h2>
+        <h2 className="text-2xl font-bold sm:text-2xl"> Explorando los Baños de Vapor Tradicionales</h2>
+
+        <p>
           Aunque los baños de vapor han sido usados por muchas culturas en diversas partes del mundo, el
 temazcal ha tenido una importancia especial en las culturas nativas de América, tanto por motivos
 religiosos y rituales, como herramienta de sanación.Se pueden encontrar vestigios de temazcales
@@ -36,8 +46,15 @@ físico, emocional, mental y espiritual.El ritual se inicia con el encendido del
 con música elaborada con instrumentos autóctonos y cantos emanados de la tradición. Acorde al
 propósito del mismo, el Temazcalli “se corre” con 4, 7 y 9 piedras, en cada una de las cuatro
 puertas si es de sanación y con 13 si se trata de templar el espíritu guerrero.</p>
-        </article>
-      </div>
+
+          <a
+            href="#"
+            className="mt-8 inline-block rounded border border-red-600 bg-red-600 px-12 py-3 text-l font-medium text-white hover:bg-transparent hover:text-red-600 focus:outline-none focus:ring active:text-red-500"
+          >
+            Leer más
+          </a>
+        </div>
+        </div>
     </div>
   </div>
 </section>
