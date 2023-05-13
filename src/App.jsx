@@ -9,7 +9,7 @@ import NewJuego from './Pages/NewJuego'
 import NewTonal from './Pages/NewTonal'
 import NewTemaz from './Pages/NewTemaz'
 import Temaz from './Pages/Temaz'
-import BirthInput from "./Pages/BirthInput"
+import Horoscopo from "./Pages/Horoscopo"
 
 function App() {
   
@@ -31,7 +31,7 @@ function App() {
         <Route path='/tonal' element={<Tonal />} />
         <Route path='/newtonal' element={<NewTonal />} />
         <Route path='/newtemaz' element={<NewTemaz />} />
-        <Route path='/horoscopo' element={<BirthInput />} />
+        <Route path='/horoscopo' element={<Horoscopo />} />
       </Routes>
     </ApolloProvider>
   </Router>

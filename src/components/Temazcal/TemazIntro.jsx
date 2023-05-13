@@ -1,32 +1,4 @@
-// React
-import { useEffect } from 'react'
-import { Link } from 'react-router-dom';
-
-// Apollo/client
-import { useLazyQuery } from '@apollo/client';
-// Query
-import { GET_TEMAZ } from '../../graphql/Queries'
-
-
-
 const TemazIntro = () => {
-  const [searchTemaz, { data, error }] = useLazyQuery(GET_TEMAZ)
-
-
- 
-  useEffect(() => {
-		console.log("use effect in home");
-		searchTemaz();
-	}, [searchTemaz])
-
-	if (data) {
-		console.log(data);
-	}
-
-	if (error) return <h1>Error: {error}</h1>;
- 
-
-  
   return (
     <section>
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
