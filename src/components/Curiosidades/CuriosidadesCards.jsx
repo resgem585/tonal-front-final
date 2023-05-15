@@ -37,36 +37,29 @@ const CuriosidadesCard = () => {
 							state={{ _id, title, description, image}}
 							className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 						>
-							<a href="#">
-								<img
-									className="rounded-t-lg opacity-100 hover:opacity-50"
-									src={image}
-									alt
-								/>
-							</a>
-							<div className="p-5">
-								<a href="#">
-									<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-										{title}
-									</h5>
-								</a>
-								<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-									{description}
-								</p>
-								<a
-      href=""
-      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-red-600"
-    >
-      Descubre más
+							<article className="group">
+  <img
+    alt="Lava"
+    src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+    className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+  />
 
-      <span
-        aria-hidden="true"
-        className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
-      >
-        &rarr;
-      </span>
+  <div className="p-4">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        Finding the Journey to Mordor
+      </h3>
     </a>
-							</div>
+
+    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
+      dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
+      sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
+      voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
+      Molestias explicabo corporis voluptatem?
+    </p>
+  </div>
+</article>
 							
 						</Link>
 						
