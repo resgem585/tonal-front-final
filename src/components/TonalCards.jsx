@@ -34,7 +34,7 @@ const TonalCards = () => {
             >
                 <a href="#">
                     <img
-                        className="rounded-t-lg opacity-50 hover:opacity-100"
+                        className="rounded-t-lg opacity-100 hover:opacity-50"
                         src={image}
                         alt={title}
                     />
@@ -42,17 +42,31 @@ const TonalCards = () => {
 
                 <div className="p-5">
                     <a href="#">
-                        <h5 className="mb-2 text-xs font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {significado}
                         </h5>
                     </a>
                     <div className="p-5">
                     <a href="#">
-                        <h5 className="mb-2 text-xs font-bold tracking-tight text-gray-900 dark:text-white">
+                        <h5 className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                             {description}
                         </h5>
+
                     </a>
-                 
+                    
+                    <a
+      href=""
+      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-red-600"
+    >
+      Descubre más
+
+      <span
+        aria-hidden="true"
+        className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+      >
+        &rarr;
+      </span>
+    </a>
                 </div>
                  
                 </div>

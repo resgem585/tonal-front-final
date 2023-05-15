@@ -39,7 +39,7 @@ const JuegoCard = () => {
 						>
 							<a href="#">
 								<img
-									className="rounded-t-lg"
+									className="rounded-t-lg opacity-100 hover:opacity-50"
 									src={image}
 									alt
 								/>

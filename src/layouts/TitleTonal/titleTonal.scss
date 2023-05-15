@@ -8,8 +8,8 @@
     border-radius: 25px;
     margin-top: 30px;
     background-color: $Primary;
-    background-image: url('https://miro.medium.com/v2/resize:fit:720/0*JnlDCU6Ll58q4vy2');
-    background-size: contain;
+    background-image: url('./../../assets/tonal.png');
+    background-size: cover;
     
     @extend %display-flex;
     justify-content: flex-end;
