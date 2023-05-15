@@ -59,6 +59,61 @@ const HomeCards = () => {
   </div>
 </a>
       
+<a href="/tonal" className="group relative block bg-black">
+  <img
+    alt="Horoscopo azteca"
+    src="https://img.freepik.com/vector-gratis/conjunto-patrones-mayas-o-aztecas-elementos-decorativos-tribales_107791-6593.jpg"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Descubre
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">Signos</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
+
+<a href="/curiosidades" className="group relative block bg-black">
+  <img
+    alt="Azteca"
+    src="https://c.files.bbci.co.uk/A990/production/_106480434_gettyimages-80051473.jpg"
+    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
+  />
+
+  <div className="relative p-4 sm:p-6 lg:p-8">
+    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
+      Descubre
+    </p>
+
+    <p className="text-xl font-bold text-white sm:text-2xl">¿Sabías qué..?</p>
+
+    <div className="mt-32 sm:mt-48 lg:mt-64">
+      <div
+        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
+      >
+        <p className="text-sm text-white">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
+          perferendis hic asperiores quibusdam quidem voluptates doloremque
+          reiciendis nostrum harum. Repudiandae?
+        </p>
+      </div>
+    </div>
+  </div>
+</a>
 
 
       <a href="" className="group relative block bg-black">
@@ -73,7 +128,7 @@ const HomeCards = () => {
       Descubre
     </p>
 
-    <p className="text-xl font-bold text-white sm:text-2xl">Tienda</p>
+    <p className="text-xl font-bold text-white sm:text-2xl">Tienda virtual</p>
 
     <div className="mt-32 sm:mt-48 lg:mt-64">
       <div
@@ -88,38 +143,6 @@ const HomeCards = () => {
     </div>
   </div>
 </a>
-
-
-
-<a href="" className="group relative block bg-black">
-  <img
-    alt="Developer"
-    src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Aztec_Triple_Alliance_Glyphs_Flag.png"
-    className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
-  />
-
-  <div className="relative p-4 sm:p-6 lg:p-8">
-    <p className="text-sm font-medium uppercase tracking-widest text-pink-500">
-      Descubre
-    </p>
-
-    <p className="text-xl font-bold text-white sm:text-2xl">E-commerce</p>
-
-    <div className="mt-32 sm:mt-48 lg:mt-64">
-      <div
-        className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
-      >
-        <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
-        </p>
-      </div>
-    </div>
-  </div>
-</a>
-
-
     </div>
   );
 }

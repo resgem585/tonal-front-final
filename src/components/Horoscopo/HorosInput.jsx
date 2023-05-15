@@ -37,7 +37,7 @@ function DatePick(){
 
   <div className="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
     <img
-      alt="Welcome"
+      alt="20 signos"
       src="https://pbs.twimg.com/media/FWrtlB_XoAAhnRy.jpg"
       className="absolute inset-0 h-full w-full object-cover"
     />
