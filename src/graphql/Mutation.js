@@ -68,3 +68,18 @@ mutation createTemaz($title:String, $description:String, $image:String){
   }
 }
 `
+
+//CURIOSIDADES 
+
+export const CREATE_SIGNO = gql`
+
+mutation createSigno($title:String, $description:String, $image:String){
+  
+  createSigno(title:$title, description:$description, image:$image){
+		_id
+    title
+    description
+    image
+  }
+}
+`

@@ -11,6 +11,7 @@ import NewTemaz from './Pages/Temazcal/NewTemaz'
 import Temaz from './Pages/Temazcal/Temaz'
 import Horoscopo from "./Pages/Horoscopo"
 import Puerta1 from './Pages/Temazcal/Puerta1'
+import CuriosidadesForm from './components/Curiosidades/CuriosidadesForm'
 
 function App() {
   
@@ -34,6 +35,7 @@ function App() {
         <Route path='/newtemaz' element={<NewTemaz />} />
         <Route path='/horoscopo' element={<Horoscopo />} />
         <Route path='/primerapuerta' element={<Puerta1 />} />
+        <Route path='/newcuriosidades' element={<CuriosidadesForm />} />
       </Routes>
     </ApolloProvider>
   </Router>

@@ -46,3 +46,15 @@ query getTemaz{
     }
 }
 `
+
+//CURIOSIDADES
+export const GET_SIGNO = gql`
+query getTemaz{
+    getTemaz {
+        _id 
+        title
+        description
+        image
+    }
+}
+`
