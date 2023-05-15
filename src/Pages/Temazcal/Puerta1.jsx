@@ -1,5 +1,5 @@
-import Footer from "../../components/Footer";
-import Navbar from "../../components/Navbar"
+import Footer from "../../components/General/Footer";
+import Navbar from "../../components/General/Navbar"
 import Articulo1 from "../../components/Temazcal/Articulo1";
 
 const Puerta1 = () => {

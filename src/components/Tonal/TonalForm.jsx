@@ -2,8 +2,8 @@ import { useMutation } from "@apollo/client";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 // Resolvers
-import { CREATE_TONAL } from "../graphql/Mutation";
-import { GET_TONAL } from "../graphql/Queries";
+import { CREATE_TONAL } from "../../graphql/Mutation";
+import { GET_TONAL } from "../../graphql/Queries";
 
 
 

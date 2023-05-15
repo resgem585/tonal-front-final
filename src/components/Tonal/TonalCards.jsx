@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 // Apollo/client
 import { useLazyQuery } from '@apollo/client';
 // Query
-import { GET_TONAL } from '../graphql/Queries'
+import { GET_TONAL } from '../../graphql/Queries'
 
 const TonalCards = () => {
     const [searchTonal, { data, error }] = useLazyQuery(GET_TONAL)
@@ -39,13 +39,13 @@ const TonalCards = () => {
                         alt={title}
                     />
                 </a>
-
+                
                 <div className="p-5">
-                    <a href="#">
-                        <h5 className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                            {significado}
-                        </h5>
-                    </a>
+								<a href="#">
+									<h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+										{significado}
+									</h5>
+								</a>
                     <div className="p-5">
                     <a href="#">
                         <h5 className="mb-3 font-normal text-gray-700 dark:text-gray-400">

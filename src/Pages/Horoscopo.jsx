@@ -1,5 +1,5 @@
-import Navbar from "../components/Navbar"
-import Footer from "../components/Footer"
+import Navbar from "../components/General/Navbar"
+import Footer from "../components/General/Footer"
 import HorosInput from "../components/Horoscopo/HorosInput"
 
 const Horoscopo = () => {

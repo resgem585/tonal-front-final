@@ -1,7 +1,7 @@
 import HomeBanner from "../components/Home/HomeBanner"
 import HomeCards from "../components/Home/HomeCards"
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar"
+import Footer from "../components/General/Footer";
+import Navbar from "../components/General/Navbar"
 
 import './../styles/home.scss'
 
