@@ -37,26 +37,28 @@ const JuegoCard = () => {
 							state={{ _id, title, description, image}}
 							className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 						>
-							<a href="#">
-								<img
-									className="rounded-t-lg opacity-100 hover:opacity-50"
-									src={image}
-									alt
-								/>
-							</a>
-							<div className="p-5">
-								<a href="#">
-									<h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-										{title}
-									</h5>
-								</a>
-								<p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-									{description}
-								</p>
+							<article className="group">
+  <img
+    alt=""
+    src={image}
+    className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+  />
 
+  <div className="p-4">
+    <a href="#">
+      <h3 className="text-lg font-medium text-gray-900">
+        {title}
+      </h3>
+    </a>
+
+    <p className="mt-2 line-clamp-5 text-sm/relaxed text-gray-500">
+      {description}
+    </p>
+  </div>
+</article>
 								<a
-      href="#"
-      className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-red-600"
+      href="/primerapuerta"
+      className="group mt-4 p-5 inline-flex items-center gap-1 text-sm font-medium text-red-600"
     >
       Descubre más
 
@@ -68,7 +70,7 @@ const JuegoCard = () => {
       </span>
     </a>
 								
-							</div>
+							
 							
 						</Link>
 						

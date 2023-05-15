@@ -35,29 +35,33 @@ const CuriosidadesCard = () => {
 						<Link
 							to=""
 							state={{ _id, title, description, image}}
-							className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+							className="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
 						>
-							<article className="group">
-  <img
-    alt="Lava"
-    src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-    className="h-56 w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
-  />
+							<article className="flex bg-white transition hover:shadow-xl">
+  <div className="rotate-180 p-2 [writing-mode:_vertical-lr]">
+      <span>¿Sabías qué..?</span>
+  </div>
 
-  <div className="p-4">
-    <a href="#">
-      <h3 className="text-lg font-medium text-gray-900">
-        Finding the Journey to Mordor
-      </h3>
-    </a>
+  <div className="">
+    <img
+      alt=""
+      src={image}
+      className="object-cover h-64"
+    />
+  </div>
 
-    <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae
-      dolores, possimus pariatur animi temporibus nesciunt praesentium dolore
-      sed nulla ipsum eveniet corporis quidem, mollitia itaque minus soluta,
-      voluptates neque explicabo tempora nisi culpa eius atque dignissimos.
-      Molestias explicabo corporis voluptatem?
-    </p>
+  <div className="flex flex-1 flex-col justify-between">
+    <div className="border-s border-gray-900/10 p-4 sm:border-l-transparent sm:p-6">
+      <a href="#">
+        <h3 className="font-bold uppercase text-gray-900">
+          {title}
+        </h3>
+      </a>
+
+      <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-700">
+        {description}
+      </p>
+    </div>
   </div>
 </article>
 							
