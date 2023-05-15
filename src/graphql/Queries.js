@@ -49,8 +49,8 @@ query getTemaz{
 
 //CURIOSIDADES
 export const GET_SIGNO = gql`
-query getTemaz{
-    getTemaz {
+query getSigno{
+    getSigno {
         _id 
         title
         description
