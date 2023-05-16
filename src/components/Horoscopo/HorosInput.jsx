@@ -1,4 +1,5 @@
 import {useState} from "react";
+import { Link } from 'react-router-dom';
 
 function DatePick(){
     const [date, setDate] = useState()
@@ -24,14 +25,14 @@ function DatePick(){
       <div className="flex justify-center">
         <input type="date" className="mx-auto text-center" onChange={e => setDate(e.target.value)} />
       </div>
-      <a href="/mono">
+      <Link to="/mono">
   <button 
     type="submit"
     className="block w-full rounded-lg bg-red-600 px-5 py-3 text-sm font-medium text-white"
   >
     Descubre tu destino
   </button>
-</a>
+</Link>
 
     </form>
   </div>
