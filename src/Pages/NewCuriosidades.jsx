@@ -1,14 +1,10 @@
-
 // Components
 import CuriosidadesForm from '../components/Curiosidades/CuriosidadesForm'
 
 
 
 const NewCuriosidades = () => {
-   
-  
- 
-  return (
+return (
     <CuriosidadesForm />
   )
 }

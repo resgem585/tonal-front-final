@@ -6,7 +6,7 @@ const Mono = () => {
   <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
     <header className="text-center">
       <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
-      Tu signo azteca: Ozomahtli, mono
+      Tu signo azteca es: Ozomahtli
       </h2>
 
       <p className="max-w-md mx-auto mt-4 text-gray-500">
@@ -93,12 +93,12 @@ const Mono = () => {
         </h2>
       </a>
       <ul>
-        <li>Filosófico, misterioso e imaginativo.</li>
-        <li>Ve más allá de los cinco sentidos y confía en su instinto y voz interior.</li>
-        <li>Expresivo, transmite alegría y confianza.</li>
-        <li>Proyecta sensualidad y disfruta de la diversión.</li>
-        <li>Puede caer víctima de su propia curiosidad.</li>
-        <li>Alcanza muchas cosas gracias a su agilidad.</li>
+        <li>▹Filosófico, misterioso e imaginativo.</li>
+        <li>▹Ve más allá de los cinco sentidos y confía en su instinto y voz interior.</li>
+        <li>▹Expresivo, transmite alegría y confianza.</li>
+        <li>▹Proyecta sensualidad y disfruta de la diversión.</li>
+        <li>▹Puede caer víctima de su propia curiosidad.</li>
+        <li>▹Alcanza muchas cosas gracias a su agilidad.</li>
       </ul>
     </div>
   </article>
@@ -112,11 +112,11 @@ const Mono = () => {
         </h2>
       </a>
       <ul>
-        <li>Amigo generoso y útil.</li>
-        <li>Egoísta en el amor y no le gusta someterse a restricciones.</li>
-        <li>Más sentimental que carnal en su sexualidad.</li>
-        <li>Preferencia por la charla en pareja en lugar de pasiones turbulentas.</li>
-        <li>Aprecio por la naturaleza y asume los golpes por distracción.</li>
+        <li>▹Amigo generoso y útil.</li>
+        <li>▹Egoísta en el amor y no le gusta someterse a restricciones.</li>
+        <li>▹Más sentimental que carnal en su sexualidad.</li>
+        <li>▹Preferencia por la charla en pareja en lugar de pasiones turbulentas.</li>
+        <li>▹Aprecio por la naturaleza y asume los golpes por distracción.</li>
       </ul>
     </div>
   </article>
@@ -130,11 +130,11 @@ const Mono = () => {
         </h2>
       </a>
       <ul>
-      <li>Pensamiento orientado hacia la comunidad y brinda ayuda de buena gana.</li>
-        <li>Expresan y comparten con generosidad lo que les pertenece y poseen.</li>
-        <li>Siempre resultarán simpáticos.</li>
-        <li>Pueden ser indecisos y posponer elecciones.</li>
-        <li>Distraídos con sus propias cosas, pero no lo son con los demás y sus asuntos.</li>
+      <li>▹Pensamiento orientado hacia la comunidad y brinda ayuda de buena gana.</li>
+        <li>▹Expresan y comparten con generosidad lo que les pertenece y poseen.</li>
+        <li>▹Siempre resultarán simpáticos.</li>
+        <li>▹Pueden ser indecisos y posponer elecciones.</li>
+        <li>▹Distraídos con sus propias cosas, pero no lo son con los demás y sus asuntos.</li>
       </ul>
     </div>
   </article>
@@ -147,12 +147,12 @@ const Mono = () => {
         </h2>
       </a>
       <ul>
-  <li>Muy creativo y disfruta en profesiones que requieren iniciativa.</li>
-  <li>Destaca en áreas científicas, comerciales, técnicas y artísticas.</li>
-  <li>Puede sobresalir en investigación, biología, física y química.</li>
-  <li>Desarrolla estrategias de marketing innovadoras.</li>
-  <li>Destaca en ingeniería, programación, arquitectura y diseño de proyectos innovadores.</li>
-  <li>Sobresale en el ámbito artístico como artista, diseñador, escritor o músico.</li>
+  <li>▹Muy creativo y disfruta en profesiones que requieren iniciativa.</li>
+  <li>▹Destaca en áreas científicas, comerciales, técnicas y artísticas.</li>
+  <li>▹Puede sobresalir en investigación, biología, física y química.</li>
+  <li>▹Desarrolla estrategias de marketing innovadoras.</li>
+  <li>▹Destaca en ingeniería, programación, arquitectura y diseño de proyectos innovadores.</li>
+  <li>▹Sobresale en el ámbito artístico como artista, diseñador, escritor o músico.</li>
 </ul>
     </div>
   </article>
