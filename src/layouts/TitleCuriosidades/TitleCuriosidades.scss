@@ -1,40 +1,41 @@
-// _styles.scss
 @import '../../styles/styles';
 
-.base4 {
-    margin: 0px 50px 20px;
-    min-height: 300px;
+.base3 {
+    margin: 0px 5px 20px;
+    min-height: 330px;
     max-height: 330px;
-    border-radius: 25px;
+    border-radius: 20px;
     margin-top: 30px;
     background-color: $Primary;
-    background-image: url('./../../assets/temaz.png');
+    background-image: url('./../../assets/curiosidades.png');
     background-size: cover;
+    max-width: 100%;
+    min-width: 100%;
     
     @extend %display-flex;
-    justify-content: flex-end;
+    justify-content: center;
     box-shadow: rgba(33, 35, 38, 0.521) 0px 10px 10px -10px;
 
     &__about {
         @extend %display-flex-flex-direction-column ;
-        min-width: 30%;
+        min-width: 50%;
         max-width: 100%;
-        min-height: 200px;
-        max-height: 200px;
-        margin-top: 45px;
-        margin-right: 70px;
+        min-height: 100px;
+        max-height: 150px;
+        margin-top: 90px;
+        margin-right: 0px;
         border-radius: 50px;
-        background-color: $Tranparent;
+        background-color: $Tranparent   ;
        
 
         &__text {
             @extend %display-flex-flex-direction-column ;
-            margin: 35px 0px 0px 20px;
+            margin: 0px 0px 0px 180px;
 
             &--title {
                 font-size: $Display-Large;
                 font-weight: bolder;
-                color: $Primary;
+                color: $Type-High-Emphasis;
             }
 
             &--subtitle {
