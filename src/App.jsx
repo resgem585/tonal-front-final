@@ -4,15 +4,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Login } from './Pages/Login'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
-import Tonal from './Pages/Tonal'
+import Tonal from './Pages/Horoscopos/Tonal'
 import NewJuego from './Pages/NewJuego'
-import NewTonal from './Pages/NewTonal'
+import NewTonal from './Pages/Horoscopos/NewTonal'
 import NewTemaz from './Pages/Temazcal/NewTemaz'
 import Temaz from './Pages/Temazcal/Temaz'
-import Horoscopo from "./Pages/Horoscopo"
+import Horoscopo from "./Pages/Horoscopos/Horoscopo"
 import Puerta1 from './Pages/Temazcal/Puerta1'
 import Curiosidades from './Pages/Curiosidades'
 import NewCuriosidades from './Pages/NewCuriosidades'
+import Mono from './Pages/Horoscopos/Mono'
 
 function App() {
   
@@ -38,6 +39,7 @@ function App() {
         <Route path='/primerapuerta' element={<Puerta1 />} />
         <Route path='/newcuriosidades' element={<NewCuriosidades />} />
         <Route path='/curiosidades' element={<Curiosidades />} />
+        <Route path='/mono' element={<Mono />} />
       </Routes>
     </ApolloProvider>
   </Router>

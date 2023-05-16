@@ -24,14 +24,15 @@ function DatePick(){
       <div className="flex justify-center">
         <input type="date" className="mx-auto text-center" onChange={e => setDate(e.target.value)} />
       </div>
+      <a href="/mono">
+  <button 
+    type="submit"
+    className="block w-full rounded-lg bg-red-600 px-5 py-3 text-sm font-medium text-white"
+  >
+    Descubre tu destino
+  </button>
+</a>
 
-      <button
-        type="submit"
-        className="block w-full rounded-lg bg-red-600 px-5 py-3 text-sm font-medium text-white"
-      >
-        Descubre tu destino
-      </button>
-      
     </form>
   </div>
 
