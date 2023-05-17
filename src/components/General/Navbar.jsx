@@ -52,6 +52,7 @@ const Navbar = () => {
             </div>
           </form>
 
+
           <div className="flex w-0 flex-1 justify-end lg:hidden">
             <button className="rounded-full bg-gray-100 p-2 text-gray-500" type="button">
               <span className="sr-only">Menu</span>
@@ -125,7 +126,9 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
+
                       Mi perfil
+
                     </a>
 
                     <a
@@ -133,7 +136,9 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
+
                       Mi horóscopo
+
                     </a>
 
                     <a
@@ -141,7 +146,9 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
+
                       Favoritos
+
                     </a>
 
                     <a
@@ -149,6 +156,7 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
+
                       Mis compras
                     </a>
 
@@ -158,6 +166,7 @@ const Navbar = () => {
                       role="menuitem"
                     >
                       Carrito
+
                     </a>
 
                     <form method="POST" action="#">
@@ -167,7 +176,9 @@ const Navbar = () => {
                         role="menuitem"
                       >
 
+
                         Cerrar sesión
+
                       </button>
                     </form>
                   </div>
