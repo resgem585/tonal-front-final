@@ -20,9 +20,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
+        Descubre la emoción y el ingenio de actividades que han perdurado a lo largo de los siglos. Desde el tlachtli, el antiguo juego de pelota, hasta el patolli, el desafiante juego de mesa, cada encuentro te transportará a la época de los antiguos aztecas. Únete a esta experiencia única y revive la tradición de los juegos que aún encienden la pasión y el espíritu competitivo en nuestros corazones.
         </p>
       </div>
     </div>
@@ -50,9 +48,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
+        El temazcal, ritual sagrado de los antiguos aztecas, te invita a liberar tu espíritu y renovar tu energía. Con el calor intenso y las hierbas aromáticas, encontrarás un camino hacia la armonía interior y la conexión con la naturaleza. Descubre la transformación que te espera en el abrazo del temazcal.
         </p>
       </div>
     </div>
@@ -78,9 +74,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
+        Sumérgete en un mundo de símbolos y significados que conectan con los ciclos cósmicos y la energía de la naturaleza. Descubre cómo este calendario ancestral guiaba la vida y las decisiones de los antiguos aztecas, revelando su destino y conectándolos con el universo. Adéntrate en la sabiduría del Tonalpohualli y despierta una nueva comprensión de tu propio camino en armonía con el cosmos.
         </p>
       </div>
     </div>
@@ -106,9 +100,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
+        Suma conocimiento a tu viaje y despierta una nueva admiración por el legado cultural de México y los misterios que aún esperan ser revelados.
         </p>
       </div>
     </div>
@@ -135,9 +127,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis
-          perferendis hic asperiores quibusdam quidem voluptates doloremque
-          reiciendis nostrum harum. Repudiandae?
+        Explora nuestra amplia selección de artesanías, joyería, ropa tradicional y decoración única, cuidadosamente elaborados por talentosos artesanos. Cada pieza cuenta una historia, capturando la esencia y el esplendor de la antigua civilización azteca. 
         </p>
       </div>
     </div>
