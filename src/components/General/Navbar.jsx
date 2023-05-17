@@ -75,17 +75,14 @@ const Navbar = () => {
             className="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
           >
             <a className="text-white" href="">
-              About
+              Horóscopo
             </a>
             <a className="text-white" href="">
-              Services
+              Artículos
             </a>
             <a className="text-white" href="">
-              Pricing
-            </a>
-            <a className="text-white" href="">
-              Blog
-            </a>
+              Tienda            </a>
+
             <div
               className="relative"
               onMouseEnter={showDropdown}
@@ -96,7 +93,7 @@ const Navbar = () => {
                   href="#"
                   className="border-e px-4 py-2 text-sm/none text-white hover:bg-gray-50 hover:text-gray-700 dark:border-e-gray-800 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-gray-200"
                 >
-                  Edit
+                  Usuario
                 </a>
 
                 <button className="h-full p-2 text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-300 dark:hover:bg-gray-800 dark:hover:text-gray-200">
@@ -128,7 +125,7 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
-                      View on Storefront
+                      Mi perfil
                     </a>
 
                     <a
@@ -136,7 +133,7 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
-                      View Warehouse Info
+                      Mi horóscopo
                     </a>
 
                     <a
@@ -144,7 +141,7 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
-                      Duplicate Product
+                      Favoritos
                     </a>
 
                     <a
@@ -152,7 +149,15 @@ const Navbar = () => {
                       className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
                       role="menuitem"
                     >
-                      Unpublish Product
+                      Mis compras
+                    </a>
+
+                    <a
+                      href="#"
+                      className="block rounded-lg px-4 py-2 text-sm text-white hover:bg-gray-50 hover:text-gray-700 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-300"
+                      role="menuitem"
+                    >
+                      Carrito
                     </a>
 
                     <form method="POST" action="#">
@@ -161,21 +166,8 @@ const Navbar = () => {
                         className="flex w-full items-center gap-2 rounded-lg px-4 py-2 text-sm text-red-700 hover:bg-red-50 dark:text-red-500 dark:hover:bg-red-600/10"
                         role="menuitem"
                       >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          className="h-4 w-4"
-                          fill="none"
-                          viewBox="0 0 24 24"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                        >
-                          <path
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
-                          />
-                        </svg>
-                        Delete Product
+
+                        Cerrar sesión
                       </button>
                     </form>
                   </div>
