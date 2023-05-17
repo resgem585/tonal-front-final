@@ -19,7 +19,7 @@ function App() {
   
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-    uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app'
+    uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app/'
   })
   
 
@@ -30,7 +30,7 @@ function App() {
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
         <Route path='/juegos' element={<Juegos />} />
-        <Route path="/temazcal" element={<Temaz/>} />
+        <Route path="/temazcal" element={<Temaz />} />
         <Route path="/newjuego" element={<NewJuego />} />
         <Route path='/tonal' element={<Tonal />} />
         <Route path='/newtonal' element={<NewTonal />} />
