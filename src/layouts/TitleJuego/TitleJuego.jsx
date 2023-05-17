@@ -1,5 +1,5 @@
 // Style
-import './titleJuego.scss'
+import './TitleJuego.scss'
 
 const TitleJuego = () => {
   return (
