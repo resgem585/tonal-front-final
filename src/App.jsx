@@ -19,15 +19,7 @@ function App() {
   
   const client = new ApolloClient({
     cache: new InMemoryCache(),
-<<<<<<< HEAD
     uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app/'
-=======
-
-    uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app'
-
-
-
->>>>>>> 7b3b8a92fb1c24a903e0ce1d951f71a672bb8e20
   })
   
 
@@ -37,17 +29,17 @@ function App() {
       <Routes>
         <Route index element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path='/juegos' element={<Juegos />} />
+        <Route path="/juegos" element={<Juegos />} />
         <Route path="/temazcal" element={<Temaz />} />
         <Route path="/newjuego" element={<NewJuego />} />
-        <Route path='/tonal' element={<Tonal />} />
-        <Route path='/newtonal' element={<NewTonal />} />
-        <Route path='/newtemaz' element={<NewTemaz />} />
-        <Route path='/horoscopo' element={<Horoscopo />} />
-        <Route path='/primerapuerta' element={<Puerta1 />} />
-        <Route path='/newcuriosidades' element={<NewCuriosidades />} />
-        <Route path='/curiosidades' element={<Curiosidades />} />
-        <Route path='/mono' element={<Mono />} />
+        <Route path="/tonal" element={<Tonal />} />
+        <Route path="/newtonal" element={<NewTonal />} />
+        <Route path="/newtemaz" element={<NewTemaz />} />
+        <Route path="/horoscopo" element={<Horoscopo />} />
+        <Route path="/primerapuerta" element={<Puerta1 />} />
+        <Route path="/newcuriosidades" element={<NewCuriosidades />} />
+        <Route path="/curiosidades" element={<Curiosidades />} />
+        <Route path="/mono" element={<Mono />} />
       </Routes>
     </ApolloProvider>
   </Router>
