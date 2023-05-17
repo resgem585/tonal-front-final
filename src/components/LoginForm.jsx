@@ -10,6 +10,8 @@ import { LOGIN } from "../graphql/Queries"
 // userState
 import userState from "../config/userState"
 
+import Logo from "../assets/logo.png"
+
 
 const LoginForm = () => {
   const navigate = useNavigate();
@@ -28,7 +30,7 @@ const LoginForm = () => {
   <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://i.pinimg.com/564x/b9/f7/3e/b9f73e49b26929fd8f597c4aa7be9d40.jpg)'}}>
     <div className="absolute white opacity-60 inset-0 z-0" />
     <div className="w-full px-24 z-10">
-      <h1 className="text-5xl font-bold text-left tracking-wide">Tonal</h1>
+      <img src={Logo}></img>
       <p className="text-3xl my-4">El libro del tiempo</p>
     </div>
     <div className="bottom-0 absolute p-4 text-center right-0 left-0 flex justify-center space-x-4">
