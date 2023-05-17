@@ -19,7 +19,15 @@ function App() {
   
   const client = new ApolloClient({
     cache: new InMemoryCache(),
+<<<<<<< HEAD
     uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app/'
+=======
+
+    uri: 'https://tonal-back-final-q5c91q1nr-resgem585.vercel.app'
+
+
+
+>>>>>>> 7b3b8a92fb1c24a903e0ce1d951f71a672bb8e20
   })
   
 
