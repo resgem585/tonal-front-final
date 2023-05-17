@@ -71,7 +71,7 @@ const HomeCards = () => {
       Descubre
     </p>
 
-    <p className="text-xl font-bold text-white sm:text-2xl">Signos</p>
+    <p className="text-xl font-bold text-white sm:text-2xl">Tonalpohualli</p>
 
     <div className="mt-32 sm:mt-48 lg:mt-64">
       <div

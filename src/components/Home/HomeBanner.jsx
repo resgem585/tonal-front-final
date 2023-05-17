@@ -12,15 +12,15 @@ const HomeBanner = () => {
   >
     <div className="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
       <h1 className="mx-auto text-3xl font-extrabold sm:text-5xl text-white">
-      Explora la antigua sabiduría azteca
+      Sumérgete en la esencia ancestral del Horóscopo Azteca
 
         <strong className="mx-auto block font-extrabold text-red-500">
-        Obtén tu Horóscopo y desentraña tu potencial
+        Descubre tu destino, abraza tu legado
         </strong>
       </h1>
 
       <p className="mx-auto mt-4 max-w-lg sm:text-xl/relaxed text-white">
-      Sumérgete en un viaje de autoconocimiento y explora las características y potencialidades que el Horóscopo azteca revela sobre ti.
+      Emprende un viaje de autoconocimiento y explora las características y potencialidades que el Horóscopo azteca revela sobre ti.
       </p>
 
       <div className="mt-8 flex flex-wrap gap-4 text-center">
