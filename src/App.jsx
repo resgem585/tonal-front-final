@@ -4,16 +4,16 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Login } from './Pages/Login'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
-import Tonal from './Pages/Horoscopos/Tonal'
+import Tonal from './Pages/Tonal'
 import NewJuego from './Pages/NewJuego'
-import NewTonal from './Pages/Horoscopos/NewTonal'
-import NewTemaz from './Pages/Temazcal/NewTemaz'
-import Temaz from './Pages/Temazcal/Temaz'
-import Horoscopo from "./Pages/Horoscopos/Horoscopo"
-import Puerta1 from './Pages/Temazcal/Puerta1'
+import NewTonal from './Pages/NewTonal'
+import NewTemaz from './Pages/NewTemaz'
+import Temaz from './Pages/Temaz'
+import Horoscopo from "./Pages/Horoscopo"
+import Puerta1 from './Pages/Puerta1'
 import Curiosidades from './Pages/Curiosidades'
 import NewCuriosidades from './Pages/NewCuriosidades'
-import Mono from './Pages/Horoscopos/Mono'
+import Mono from './Pages/Mono'
 
 function App() {
   
