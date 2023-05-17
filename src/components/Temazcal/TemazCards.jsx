@@ -35,7 +35,7 @@ const TemazCard = () => {
 						<Link
 							to=""
 							state={{ _id, title, description, image}}
-							className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+							className="max-w-sm bg-white border border-gray-200 rounded-lg shadow white dark:border-gray-700"
 						>
 							<article className="group">
   <img
