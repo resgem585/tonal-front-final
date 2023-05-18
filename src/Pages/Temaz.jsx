@@ -11,7 +11,6 @@ const Temaz = () => {
     <TitleTemaz />
     <TemazIntro />
     <TemazCard  />
-    <TemazCard  />
     <Footer />
     </>
   )
