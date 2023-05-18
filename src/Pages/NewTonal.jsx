@@ -1,4 +1,4 @@
-import TonalForm from "../../components/Tonal/TonalForm"
+import TonalForm from "../components/Tonal/TonalForm"
 
 
 

@@ -1,4 +1,4 @@
-import TemazForm from "../../components/Temazcal/TemazForm"
+import TemazForm from "../components/Temazcal/TemazForm"
 
 
 const NewTemaz = () => {
