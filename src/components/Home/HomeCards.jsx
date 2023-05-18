@@ -100,7 +100,7 @@ const HomeCards = () => {
         className="translate-y-8 transform opacity-0 transition-all group-hover:translate-y-0 group-hover:opacity-100"
       >
         <p className="text-sm text-white">
-        Suma conocimiento a tu viaje y despierta una nueva admiración por el legado cultural de México y los misterios que aún esperan ser revelados.
+        Explora las maravillas arqueológicas que guardan siglos de historia y maravíllate con la riqueza artística y el ingenio tecnológico de esta antigua civilización. Suma conocimiento a tu viaje y despierta una nueva admiración por el legado cultural de México y los misterios que aún esperan ser revelados.
         </p>
       </div>
     </div>
