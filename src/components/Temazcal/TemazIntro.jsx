@@ -1,7 +1,6 @@
 const TemazIntro = () => {
   return (
     <section>
-      <div className="h-screen w-screen bg-red-500">
       <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
     <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
       <div className="relative z-10 lg:py-16">
@@ -58,8 +57,6 @@ puertas si es de sanación y con 13 si se trata de templar el espíritu guerrero
         </div>
     </div>
   </div>
-      </div>
-    
 </section>
 	);
 };

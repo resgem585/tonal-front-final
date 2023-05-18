@@ -9,11 +9,8 @@ const Temaz = () => {
     <>
     <Navbar/>
     <TitleTemaz />
-    
     <TemazIntro />
-    <div className="h-screen w-screen bg-blue-500">
     <TemazCard  />
-    </div>
     <TemazCard  />
     <Footer />
     </>
