@@ -5,15 +5,13 @@ import Navbar from "../components/General/Navbar"
 
 import './../styles/home.scss'
 
-
 const Home = () => {
   return (
     <>
-    <Navbar/>
-    <HomeBanner />
-    <HomeCards />
-    <Footer />
-    
+      <Navbar />
+      <HomeBanner />
+      <HomeCards />
+      <Footer />
     </>
   )
 }
