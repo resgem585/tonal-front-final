@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const HomeCards = () => {
   return (
     <div className=" flex justify-center flex-wrap gap-y-5 xs:gap-y-7 sm:gap-y-12 gap-x-12 2xl:gap-x-4 mb-8 mt-11 2xl:mt-44 xs:pt-2 sm:pt-5 md:pt-4 lg:pt-6 xl:pt-5 2xl:pt-2 xl:px-6 2xl:px-0">
@@ -108,7 +110,7 @@ const HomeCards = () => {
 </a>
 
 
-      <a href="" className="group relative block bg-black">
+      <a href="https://luminous-bavarois-c270e2.netlify.app/" className="group relative block bg-black" >
   <img
     alt="Comercio"
     src="https://scontent.fmex1-4.fna.fbcdn.net/v/t1.6435-9/121691744_107343854485833_9156124992322375936_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=IFq7zV4GEjMAX--vsDb&_nc_ht=scontent.fmex1-4.fna&oh=00_AfByf6jOGOgIKRUVzejvEcHwFG8HIMEbd2naAH_c_qU2uQ&oe=64863BCE"
