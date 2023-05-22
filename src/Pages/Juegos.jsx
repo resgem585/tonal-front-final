@@ -10,6 +10,8 @@ const Juegos = () => {
     <Navbar/>
     <TitleJuego />
     <JuegoIntro />
+    <div className="h-screen w-screen">
+    </div>
     <JuegoCard />
     <Footer />
     </>
