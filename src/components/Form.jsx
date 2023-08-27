@@ -1,32 +1,49 @@
-// React-router-dom
-import { useNavigate } from "react-router-dom"
-import { useState } from "react"
-// Apollo Cliente
-import { useLazyQuery } from "@apollo/client"
-
-// Query
-import { LOGIN } from "../graphql/Queries"
-
-// userState
-import userState from "../config/userState"
-
+import {useState, useEffect} from "react";
+import { CREATE_USER } from "../graphql/Mutation"
+import { UPDATE_USER } from "../graphql/Mutation";
+import { useMutation } from "@apollo/client";
+import { useNavigate, useLocation } from "react-router-dom";
 import Logo from "../assets/logo.png"
 
+export const Form = () => {
+	const navigate = useNavigate()
+	const location = useLocation();
+	console.log( 'user info', location.state )
+	
+	/* Variables globales */
+	const [email, setEmail] = useState( "" );  //var name = ""
+	const [password, setPassword] = useState( "" )
+	const [_id, setId] = useState( "" );
+	/* Variables globales */
 
-const LoginForm = () => {
-  const navigate = useNavigate();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [isInvalid, setIsInvalid] = useState("");
-  const setUserSession = userState((state) => state.addSession);
-  const verifySession = userState((state) => state.session);
-  console.log("get current session in login", verifySession);
+	/* Variables de estado de useLocation */
+	const currentState = location.state;
+	const userId = currentState && currentState !== undefined ? currentState._id : _id
+	const userEmail = currentState && currentState !== undefined ? currentState.userEmail : email
+	const userPassword = currentState && currentState !== undefined ?  currentState.userPassword : password ;
+	
+	/* Variables de estado de useLocation */
 
-  const [login, { data, error }] = useLazyQuery(LOGIN, {
-    variables: { email, password },
-  });
-  return (
-<section className="min-h-screen flex items-stretch text-white ">
+	
+
+	/* Area de Mutaciones */
+	const [createUser] = useMutation( CREATE_USER, {} );
+	const [updateUser] = useMutation( UPDATE_USER, {})
+	
+	/* Area de Mutaciones */
+
+	useEffect( () => {
+		
+		if ( currentState ) {
+			
+			setEmail( userEmail )
+			setPassword( userPassword )
+	}
+	}, [])
+	
+	
+	return (
+		<section className="min-h-screen flex items-stretch text-white ">
   <div className="lg:flex w-1/2 hidden bg-gray-500 bg-no-repeat bg-cover relative items-center" style={{backgroundImage: 'url(https://i.pinimg.com/564x/b9/f7/3e/b9f73e49b26929fd8f597c4aa7be9d40.jpg)'}}>
     <div className="absolute white opacity-60 inset-0 z-0" />
     <div className="w-full px-24 z-10">
@@ -53,50 +70,54 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
     <div className="w-full py-6 z-20">
       <h1 className="my-6">
       <p className="text-gray-100 text-lg" >
-        Inicia sesión
+        Registrate
       </p>
       </h1>
-      <div className="py-6 space-x-2">
-        <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">f</span>
-        <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">G+</span>
-        <span className="w-10 h-10 items-center justify-center inline-flex rounded-full font-bold text-lg border-2 border-white">in</span>
-      </div>
+      
       <p className="text-gray-100">
-        o usa tu correo electrónico
+        con tu correo electronico
       </p>
-      <form action className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto"
-      onSubmit={async (e) => {
-        e.preventDefault(); // Prevent refreshing
-        await login().then(function (response) {
-          var data = response.data.login;
-          if (data) {
-            navigate("/home");
-            setUserSession({ isValid: true });
-          } else {
-            setIsInvalid("Datos incorrectos, intenta de nuevo");
-          }
-        });
-      }}>
+      <form onSubmit={async ( event ) => {
+			event.preventDefault()
+
+			if ( currentState ) {
+				//llamar al mutation para actualizar el empleado
+				await updateUser({variables: {_id, email: email.toLowerCase(),password}})
+			} else {
+			//Llamar al mutation para crear el employee
+			await createUser( {
+				variables : {email : email.toLowerCase(), password}
+			})
+			}
+			
+
+			//Redirigir al usuario hacia /index
+           navigate('/')
+		}}>
         <div className="pb-2 pt-4">
-          <input type="email" name="email" id="email" placeholder="Correo electrónico" 
-          onChange={(e) => {
-                  setEmail(e.target.value);
-          }}className="block w-full p-4 text-lg rounded-sm bg-black" />
+          <input type="text"
+					onChange={ (event) => {
+						
+						let getEmailValue = event.target.value
+						console.log(getEmailValue)
+						setEmail( getEmailValue )
+						
+						console.log('current name state', email) /// name = "carlos"
+					} }
+					id="email"className="block w-full p-4 text-lg rounded-sm bg-black" placeholder="Email" />
         </div>
         <div className="pb-2 pt-4">
-          <input className="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" id="password" 
+          <input className="block w-full p-4 text-lg rounded-sm bg-black" type="password" name="password" id="password" value={password}
           onChange={(e) => {
             setPassword(e.target.value);
+			
           }}placeholder="Contraseña" />
         </div>
-        <div className="text-right text-gray-400 hover:underline hover:text-gray-100">
-          <a href="/create">Registrate</a>
-        </div>
+        
         <div className="px-4 pb-2 pt-4">
-          <button type="submit" className="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">Iniciar sesión</button>
+          <button type="submit" className="uppercase block w-full p-4 text-lg rounded-full bg-indigo-500 hover:bg-indigo-600 focus:outline-none">Sign in</button>
         </div>
         <div className="mb-6">
-              <p className="text-red-600 mt-5">{isInvalid}</p>
             </div>
         <div className="p-4 text-center right-0 left-0 flex justify-center space-x-4 mt-16 lg:hidden ">
           <a href="#">
@@ -113,7 +134,5 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
     </div>
   </div>
 </section>
-  )
-}
-
-export default LoginForm
+	);
+};
