@@ -77,7 +77,7 @@ www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24"><path d="M12 2.1
       <p className="text-gray-100">
         con tu correo electronico
       </p>
-      <form onSubmit={async ( event ) => {
+      <form className="sm:w-2/3 w-full px-4 lg:px-0 mx-auto" onSubmit={async ( event ) => {
 			event.preventDefault()
 
 			if ( currentState ) {
