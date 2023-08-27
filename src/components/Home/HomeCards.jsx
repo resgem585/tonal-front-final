@@ -113,7 +113,7 @@ const HomeCards = () => {
       <a href="https://luminous-bavarois-c270e2.netlify.app/" className="group relative block bg-black" >
   <img
     alt="Comercio"
-    src="https://scontent.fmex1-4.fna.fbcdn.net/v/t1.6435-9/121691744_107343854485833_9156124992322375936_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=e3f864&_nc_ohc=IFq7zV4GEjMAX--vsDb&_nc_ht=scontent.fmex1-4.fna&oh=00_AfByf6jOGOgIKRUVzejvEcHwFG8HIMEbd2naAH_c_qU2uQ&oe=64863BCE"
+    src="https://www.socialhizo.com/images/edad_antigua/aztecas/economia/tianguis-azteca.jpg"
     className="absolute inset-0 h-full w-full object-cover opacity-75 transition-opacity group-hover:opacity-50"
   />
 
