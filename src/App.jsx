@@ -2,6 +2,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import { Login } from './Pages/Login'
+import { Form } from './components/Form'
 import Home from './Pages/Home'
 import Juegos from './Pages/Juegos'
 import Tonal from './Pages/Tonal'
@@ -28,6 +29,7 @@ function App() {
     <ApolloProvider client={client}>
       <Routes>
         <Route index element={<Login />} />
+        <Route path="/create" element={<Form />} />
         <Route path="/home" element={<Home />} />
         <Route path="/juegos" element={<Juegos />} />
         <Route path="/temazcal" element={<Temaz />} />

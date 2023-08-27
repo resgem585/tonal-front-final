@@ -8,6 +8,16 @@ mutation createUser($email:String, $password: String) {
   }
 }
 `
+export const UPDATE_USER = gql`
+
+mutation updateUser($_id: ID,$email:String, $password:String){
+  updateUser(_id: $_id,email:$email, password:$password){
+    _id
+    email
+    password
+  }
+}
+`
 
 
 // JUEGOS
