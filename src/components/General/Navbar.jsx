@@ -81,7 +81,7 @@ const Navbar = () => {
             <a className="text-white" href="">
               Artículos
             </a>
-            <a className="text-white" href="">
+            <a className="text-white" href="https://luminous-bavarois-c270e2.netlify.app/">
               Tienda            </a>
 
             <div
