@@ -1,8 +1,9 @@
 import logo from '../../assets/logo.png';
-import React from 'react';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = React.useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const showDropdown = () => {
     setIsDropdownOpen(true);
@@ -75,9 +76,10 @@ const Navbar = () => {
             aria-label="Site Nav"
             className="hidden items-center justify-center gap-8 text-sm font-medium lg:flex lg:w-0 lg:flex-1"
           >
-            <a className="text-white" href="">
+            <Link to="/horoscopo" className="text-white" >
+           
               Horóscopo
-            </a>
+            </Link>
             <a className="text-white" href="">
               Artículos
             </a>
