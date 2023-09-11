@@ -9,9 +9,9 @@ const Mono = () => {
       Tu signo azteca es: Ozomahtli
       </h2>
 
-      <p className="max-w-md mx-auto mt-4 text-gray-500">
-      Tu fecha de nacimiento: 18 de mayo
-      </p>
+    {/*   <p className="max-w-md mx-auto mt-4 text-gray-500">
+
+      </p> */}
     </header>
 
     <ul className="grid grid-cols-1 gap-4 mt-8 lg:grid-cols-3">
